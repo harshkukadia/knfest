@@ -1,0 +1,313 @@
+{
+  "forms": {
+    "signupConfig": {
+      "active": false,
+      "formSelector": null,
+      "formInputs": []
+    },
+    "loginConfig": {
+      "formSelector": null,
+      "loginIsFirstPage": false,
+      "active": false,
+      "formInputs": []
+    },
+    "search": {
+      "active": false
+    },
+    "interceptForms": {
+      "forms": []
+    }
+  },
+  "general": {
+    "userAgentAdd": "gonative",
+    "useWKWebView": true,
+    "initialUrl": "http://knfest.com",
+    "appName": "Krishna Navratri Fest 2015",
+    "publicKey": "bdppd",
+    "deviceRegKey": "8tdg4dr8grqqjkjqfbe532vzu0",
+    "replaceStrings": [],
+    "userAgentRegexes": []
+  },
+  "navigation": {
+    "androidShowRefreshButton": false,
+    "iosShowRefreshButton": false,
+    "navigationLevels": {
+      "active": false,
+      "levels": [
+        null
+      ]
+    },
+    "toolbarNavigation": null,
+    "ignorePageFinishedRegexes": [],
+    "redirects": [],
+    "navigationTitles": {
+      "active": false,
+      "titles": [
+        null
+      ]
+    },
+    "regexInternalExternal": {
+      "rules": [
+        {
+          "regex": "mailto:.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/login.php.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/dialog.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v1\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/oauth.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v2\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/checkpoint.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*plus\\.google\\.com/share.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*twitter\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://maps\\.google\\.com.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*",
+          "internal": false
+        },
+        {
+          "regex": ".*",
+          "internal": true
+        }
+      ]
+    },
+    "sidebarNavigation": {
+      "menus": [
+        {
+          "name": "default",
+          "active": true,
+          "items": [
+            {
+              "url": "http://knfest.com/pages/about",
+              "label": "Event details",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/products/silver-pass",
+              "label": "Silver (single day)",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/products/gold-pass",
+              "label": "Gold",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/products/diamond-pass",
+              "label": "Diamond",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/products/platinum-pass",
+              "label": "Platinum",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/products/vip-car-parking",
+              "label": "VIP parking",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/pages/contact-us",
+              "label": "Contact us",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/account",
+              "label": "Log in",
+              "subLinks": []
+            },
+            {
+              "label": "Register",
+              "url": "http://knfest.com/account/register",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/cart",
+              "label": "Cart",
+              "subLinks": []
+            }
+          ]
+        },
+        {
+          "name": "loggedIn",
+          "active": false,
+          "items": [
+            {
+              "url": "http://knfest.com/pages/about",
+              "label": "Event details",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/products/silver-pass",
+              "label": "Silver (single day)",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/products/gold-pass",
+              "label": "Gold",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/products/diamond-pass",
+              "label": "Diamond",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/products/platinum-pass",
+              "label": "Platinum",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/products/vip-car-parking",
+              "label": "VIP parking",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/pages/contact-us",
+              "label": "Contact us",
+              "subLinks": []
+            },
+            {
+              "url": "http://knfest.com/cart",
+              "label": "Cart",
+              "subLinks": []
+            }
+          ]
+        }
+      ],
+      "menuSelectionConfig": {
+        "testURL": null,
+        "redirectLocations": [
+          {
+            "regex": null,
+            "menuName": "default",
+            "loggedIn": false
+          },
+          {
+            "regex": ".*",
+            "menuName": "default",
+            "loggedIn": true
+          }
+        ]
+      }
+    },
+    "tabNavigation": {
+      "active": false,
+      "tabMenus": [
+        {
+          "id": "1",
+          "items": [
+            {
+              "subLinks": []
+            }
+          ]
+        }
+      ],
+      "tabSelectionConfig": [
+        {
+          "id": "1",
+          "regex": ""
+        }
+      ]
+    },
+    "iosPullToRefresh": true,
+    "androidPullToRefresh": true
+  },
+  "performance": {
+    "webviewPools": [
+      {
+        "urls": [
+          {
+            "url": "http://www.knfest.com",
+            "disown": "reload"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "usesGeolocation": true
+  },
+  "services": {
+    "analytics": {
+      "active": false,
+      "idsite_prod": 40120,
+      "idsite_test": 40121
+    },
+    "push": {
+      "active": true
+    }
+  },
+  "styling": {
+    "icon": "uploads/1443690308206_3ykg3jb0xmqqm_Feather.png",
+    "iosHeaderImage": "uploads/logo1.png",
+    "showActionBar": true,
+    "showNavigationBar": true,
+    "iosSidebarFont": "Default",
+    "androidHideTitleInActionBar": false,
+    "iosTheme": "light",
+    "androidTheme": "light",
+    "androidSidebarBackgroundColor": "#FFFFFF",
+    "androidSidebarForegroundColor": "#777777",
+    "androidActionBarBackgroundColor": "#bdbdbd",
+    "androidActionBarForegroundColor": "#000000",
+    "androidPullToRefreshColor": "#777777",
+    "androidAccentColor": "#009688",
+    "androidSidebarSeparatorColor": "#585858",
+    "androidTabBarBackgroundColor": "#bdbdbd",
+    "androidTabBarTextColor": "#000000",
+    "androidTabBarIndicatorColor": "#000000",
+    "iosTitleColor": "#333333",
+    "iosTintColor": "#0091fe",
+    "iosSidebarTextColor": "#333333",
+    "navigationTitleImage": false,
+    "androidStatusBarBackgroundColor": "#909090",
+    "forceViewportWidth": null,
+    "androidNotificationIcon": "/uploads/1443690373417_vdkzq55a7fpnu_Feather.png",
+    "hideWebviewAlpha": 0.5,
+    "disableAnimations": false,
+    "androidShowSplash": true,
+    "menuAnimationDuration": 0.15,
+    "transitionInteractiveDelayMax": 0.2
+  }
+}
